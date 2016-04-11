@@ -6,7 +6,7 @@ $(function() {
       'eye candy design;',
       'good movie and popcorn;',
       'javascript, angular, sass, nodejs...;',
-      'sve što vole mladi;'
+      'test javascript;'
     ],
     counterS: 0,
     counterL: 0,
