@@ -2,7 +2,7 @@ $(function () {
     var message = {
 
         message: [
-            'web backend development;', 'eye candy design;', 'cats;', 'good movie and popcorn;', 'java, scala, python. . .;', 'scalable applications;', 'with good frameworks :);', 'hard videogames'
+            'web backend development;', 'eye candy design;', 'cats;', 'good movie and popcorn;', 'java, scala, python. . .;', 'scalable applications;', 'with good frameworks :);', 'hard videogames;'
         ]
         , counterS: 0
         , counterL: 0
