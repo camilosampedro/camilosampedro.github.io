@@ -5,8 +5,8 @@ $(function() {
       'web development;',
       'eye candy design;',
       'good movie and popcorn;',
-      'javascript, angular, sass, nodejs...;',
-      'test javascript;'
+      'java, scala, python. . .;',
+      'with good frameworks :);'
     ],
     counterS: 0,
     counterL: 0,
