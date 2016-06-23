@@ -46,7 +46,7 @@ body{
 
 }
 .header-section {
-  background: #E6E6EB;
+  background: #1866A5;
   text-align: center;
     min-height: 500px;
 }
@@ -57,22 +57,22 @@ body{
   font-family: 'Nunito-Bold';
   font-size: 4em;
   text-transform: capitalize;
-  color: #393b3a;
+  color: #E6E8EA;
   padding: 0.5em 0 0 0;
 }
 .header-section span {
-  color: #7262D0;
+  color: #FFC680;
   font-size: 1em;
 }
 .header-section p {
   font-family: 'Nunito-Bold';
   font-size: 1.3em;
-  color: #393b3a;
+  color: #E6E8EA;
 }
 span.glyphicon.glyphicon-triangle-bottom {
   font-size: 2em;
-  color: #fff;
-  background-color: rgb(114, 98, 208);
+  color: #1866A5;
+  background-color: rgb(215, 234, 249);
   padding: 0.5em 2em;
   border-radius: 5px 5px 0 0;
   margin-top: 2.5em;
@@ -84,16 +84,16 @@ span.glyphicon.glyphicon-triangle-bottom {
   font-family: 'Nunito-Bold';
   font-size: 2.5em;
   text-transform: capitalize;
-  color: #393b3a;
+  color: #545D63;
   
 }
 .study-grid span {
-  color: #7262D0;
+  color: #FA8A00;
   font-size: 0.9em;
 }
 .study-grid p {
   font-size: 1.2em;
-  color: #393b3a;
+  color: #545D63;
   padding: 1.1em 0 0 0;
   }
 .study-grid label {
@@ -105,20 +105,28 @@ span.glyphicon.glyphicon-triangle-bottom {
 	margin: 10px 0;
 	 box-shadow: none;
 }
-.progress-bar-success {
-  background-color: #E6E6EB;
+.progress-bar-1 {
+  background-color: #A4F9CE;
    box-shadow: none;
 }
-.progress-bar-info {
-  background-color: #ACB5B8;
+.progress-bar-2 {
+  background-color: #A4F9F9;
     box-shadow: none;
 }
-.progress-bar-warning {
-  background-color: #78B3AE;
+.progress-bar-3 {
+  background-color: #A4CFF9;
    box-shadow: none;
 }
-.progress-bar-danger {
-  background-color: #8C9D82;
+.progress-bar-4 {
+  background-color: #A4A5F9;
+  box-shadow: none;
+  }
+.progress-bar-5 {
+  background-color: #CEA4F9;
+  box-shadow: none;
+  }
+.progress-bar-6 {
+  background-color: #F9A4F9;
   box-shadow: none;
   }
 .study-grid h4 {
@@ -149,21 +157,21 @@ span.glyphicon.glyphicon-triangle-bottom {
 }
 span.glyphicon.glyphicon-pencil {
   font-size: 2em;
-  color: #CDCADE;
+  color: #BBD3E7;
   border-radius: 50px;
   border: 2px solid;
   padding: 1em;
 }
 span.glyphicon.glyphicon-phone{
 font-size: 2em;
-  color: #CDCADE;
+  color: #BBD3E7;
   border-radius: 50px;
   border: 2px solid;
   padding: 1em;
 }
 span.glyphicon.glyphicon-signal{
 font-size: 2em;
-  color: #CDCADE;
+  color: #BBD3E7;
   border-radius: 50px;
   border: 2px solid;
   padding: 1em;
@@ -178,7 +186,7 @@ font-size: 2em;
   font-family: 'Nunito-Bold';
   font-size: 2.5em;
   text-transform: capitalize;
-  color: #393b3a;
+  color: #545D63;
   text-align: center;
   margin-bottom:2em;
 }
@@ -191,7 +199,7 @@ font-size: 2em;
 }
 .face h4 {
   font-size: 0.9em;
-  color: #393b3a;
+  color: #E6E8EA;
   font-weight: 500;
   text-transform: capitalize;
   margin-top: 1.2em;
@@ -233,14 +241,14 @@ i.beh {
 }
 .contact-section {
   padding: 4em 0;
-  background: #E6E6EB;
+  background: #1866A5;
  
  }
 .contact-section h3 {
     font-family: 'Nunito-Bold';
   font-size: 2.5em;
   text-transform: capitalize;
-  color: #393b3a;
+  color: #E6E8EA;
   text-align: center;
   margin-bottom: 2em;
 
@@ -248,10 +256,10 @@ i.beh {
 .contact-details form input[type="text"],.contact-details form textarea {
 	width: 100%;
 	padding: 1.5em 1em;
-	border: 1px solid #C4BFE3;
+	border: 1px solid #E6E8EA;
 	font-size: 1.1em;
 	margin-bottom: 1.2em;
-	color: #Aac8ac;
+	color: #DFE9F1;
 	outline: none;
 	background:transparent;
 	font-weight: 600;
@@ -265,12 +273,12 @@ i.beh {
 	text-align:right;
 }
 .contact-details input[type="submit"] {
-	background: #393b3a;
+	background: #E6E8EA;
 	padding: 1em 2em;
 	border: none;
 	font-size: 1em;
 	margin: 0.5em 0 0 0;
-	color: #fff;
+	color: #545D63;
 	outline: none;
 	font-weight: 600;
 	border-radius:5px;
@@ -292,7 +300,7 @@ i.beh {
 .footer-section{
 	padding:2em 0;
 	text-align:center;
-	background:#E6E6EB;
+	background:#1866A5;
 }
 .footer-bottom {
 	margin-top: 1em;
