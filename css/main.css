@@ -27,27 +27,60 @@ body {
     text-align: center;
 }
 
-#information {
-    padding-top: 30em;
+#first {
+    padding-top: 25em;
 }
 
-#information img {
-  border: 1px solid #1e2223;
+.information img {
+    border: 1px solid #1e2223;
+    margin-right: 0;
+    float: right;
 }
 
-#information h1 {
+.information .col-md-6 {
+    padding: 0;
+}
+
+.flags {
+    padding-left: 0;
+    text-align: left;
+}
+
+.flags .flag {
+  border-right: 2px solid #00FF6F;
+    font-family: 'Fira Mono', monospace;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    padding: 1px;
+    padding-left: 5px;
+    width: 6em;
+}
+
+.flags #scala {
+    background-color: #FF8E70;
+}
+
+.flags #java {
+    background-color: #FFBD70;
+}
+.flags #big-data {
+    background-color: #77D3FF;
+}
+
+.information h1 {
     color: #00FF6F;
     margin-top: 0.3em;
     margin-bottom: 0;
     font-family: 'Fira Mono', monospace;
 }
 
-#information h1 #terminal-root {
+.information h1 #terminal-root {
     font-weight: bolder;
     color: #FF8900;
 }
 
-#information h1:after {
+.information h1:after {
     content: ' ';
     display: block;
     margin-right: 17%;
@@ -61,57 +94,58 @@ body {
     -moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, .05);
 }
 
-#information h2 {
+.information h2 {
     color: #A4FFCC;
     margin-top: 0.5em;
     margin-bottom: 0;
     font-size: 1.2em;
 }
 
-#information p {
+.information p {
     margin-top: 0.2em;
     color: #A8E3FF;
 }
 
-#information #red-afirmation {
+.information #red-afirmation {
     font-family: 'Valera Round', sans-serif;
     font-weight: bolder;
     color: #FF8900;
 }
 
 #apps i {
-  width: 1.9em;
-  font-size: 1.5em;
-  font-weight: bold;
-  padding: 0.2em;
-  border-style: outset;
-  border-width: 0.2em;
+    width: 1.9em;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0.2em;
+    border-style: outset;
+    border-width: 0.2em;
 }
 
 #apps #aton {
-  border-color: #FF8900;
-  color: #FF8900;
+    border-color: #FF8900;
+    color: #FF8900;
 }
 
 #apps #facebook {
-  border-color: #8392FF;
-  color: #8392FF;
+    border-color: #8392FF;
+    color: #8392FF;
 }
 
 #apps #twitter {
-  border-color: #0CB0FF;
-  color: #0CB0FF;
+    border-color: #0CB0FF;
+    color: #0CB0FF;
 }
 
 #apps #github {
-  border-color: #D8D9DF;
-  color: #D8D9DF;
+    border-color: #D8D9DF;
+    color: #D8D9DF;
 }
 
 #apps #google-plus {
-  border-color: #FF3500;
-  color: #FF3500;
+    border-color: #FF3500;
+    color: #FF3500;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
