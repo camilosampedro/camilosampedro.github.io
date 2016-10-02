@@ -19,53 +19,64 @@ html {
 }
 
 body {
+
+    background: url("img/glowing_lake.jpg");
+    background-size: 100px 100px;
     background-color: #101314;
     color: white;
 }
 
 .centered {
+  vertical-align: center;
     text-align: center;
 }
 
 #first {
-    padding-top: 25em;
+    padding-top: 20em;
 }
 
-.information img {
+.image img {
     border: 1px solid #1e2223;
     margin-right: 0;
     float: right;
-}
-
-.information .col-md-6 {
     padding: 0;
 }
 
 .flags {
-    padding-left: 0;
+    padding: 0;
+    vertical-align: top;
     text-align: left;
 }
 
 .flags .flag {
-  border-right: 2px solid #00FF6F;
+    border-left: 2px solid #00FF6F;
     font-family: 'Fira Mono', monospace;
     font-weight: bold;
     color: black;
-    margin: 0;
+    margin: 6px 0;
     padding: 1px;
     padding-left: 5px;
-    width: 6em;
+    width: 100%;
 }
 
 .flags #scala {
-    background-color: #FF8E70;
+    background-color: #ff7070;
 }
 
 .flags #java {
-    background-color: #FFBD70;
+    background-color: #f2a040;
 }
+
 .flags #big-data {
     background-color: #77D3FF;
+}
+
+.flags #linux {
+    background-color: #9183a1;
+}
+
+.flags #web {
+    background-color: #86a183;
 }
 
 .information h1 {
