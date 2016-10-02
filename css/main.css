@@ -20,8 +20,8 @@ html {
 
 body {
 
-    background: url("img/glowing_lake.jpg");
-    background-size: 100px 100px;
+    background: url("/img/glowing_lake.jpg");
+    background-repeat: no-repeat;
     background-color: #101314;
     color: white;
 }
