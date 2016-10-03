@@ -3,13 +3,9 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    Camilo A. Sampedro -- Programmer -- @marcusbrass
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Bootstrap, Apache Server Configs, jQuery, Modernizr, Normalize.css
