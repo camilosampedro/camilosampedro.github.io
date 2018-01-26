@@ -75,6 +75,10 @@ body {
     background-color: #77D3FF;
 }
 
+.flags #aws {
+    background-color: #ff9900;
+}
+
 .flags #linux {
     background-color: #9183a1;
 }
