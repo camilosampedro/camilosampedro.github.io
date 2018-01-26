@@ -67,6 +67,10 @@ body {
     background-color: #f2a040;
 }
 
+.flags #elixir {
+    background-color: #9D5CD2;
+}
+
 .flags #big-data {
     background-color: #77D3FF;
 }
