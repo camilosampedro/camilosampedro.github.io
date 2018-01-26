@@ -133,8 +133,8 @@ body {
 }
 
 #apps #aton {
-    border-color: #FF8900;
-    color: #FF8900;
+    border-color: #00e0ff;
+    color: #0eb7cf;
 }
 
 #apps #facebook {
@@ -162,6 +162,10 @@ body {
     color: #c13584;
 }
 
+#apps #stack-overflow {
+    border-color: #ed791c;
+    color: #f48024;
+}
 
 /*
  * Remove text-shadow in selection highlight:
