@@ -20,7 +20,7 @@ html {
 
 body {
 
-    background: url("/img/glowing_lake.jpg");
+    background: url("../img/glowing_lake.jpg");
     background-repeat: no-repeat;
     background-color: #101314;
     color: white;
@@ -109,7 +109,7 @@ body {
     color: #A4FFCC;
     margin-top: 0.5em;
     margin-bottom: 0;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 
 .information p {
