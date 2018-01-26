@@ -157,6 +157,11 @@ body {
     color: #FF3500;
 }
 
+#apps #instagram {
+    border-color: #e1306c;
+    color: #c13584;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
