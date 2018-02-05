@@ -182,6 +182,12 @@ a {
   color: #f48024;
 }
 
+.help {
+  color: #5a5555;
+  margin: 3px;
+  cursor: default;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
