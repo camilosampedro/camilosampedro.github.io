@@ -23,6 +23,11 @@ body {
   color: white;
 }
 
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
 .centered {
   position: relative;
   top: 50%;
@@ -89,6 +94,7 @@ body {
 }
 
 .information h1 {
+  display: inline-block;
   color: #00FF6F;
   margin-top: 0.3em;
   margin-bottom: 0;
@@ -103,8 +109,8 @@ body {
 .information h1:after {
   content: ' ';
   display: block;
-  margin-right: 17%;
-  margin-left: 17%;
+  /*margin-right: 50vh;
+  margin-left: 50vh;*/
   border: 1px solid #FF8900;
   border-radius: 1px;
   -webkit-border-radius: 1px;
