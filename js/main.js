@@ -11,6 +11,8 @@ var phrases = [
   'echo "└[∵┌]└[ ∵ ]┘[┐∵]┘ Follow me on <a href="https://open.spotify.com/user/camilosampedro" title="Spotify: @camilosampedro" target="_blank">Spotify! <i class="fab fa-spotify" aria-hidden="true"></i></a>"',
   '<a href="https://lifehacker.com/373571/watch-star-wars-in-text-via-telnet" title="Star Wars via Telnet" target="_blank">telnet towel.blinkenlights.nl</a>',
   'echo "Source on <a href="https://github.com/camilosampedro/camilosampedro.github.io" target="_blank">my GitHub! <i class="fab fa-github-alt" aria-hidden="true"></i></a>"',
+  'echo "Stars effect by <a href="https://codepen.io/saransh/pen/BKJun" target="_blank">@Saransh Sinha <i class="fab fa-codepen" aria-hidden="true"></i></a>"',
+  'echo "Autotyped with <a href="https://mattboldt.com/demos/typed-js" target="_blank">Typed.js <i class="fab fa-npm" aria-hidden="true"></i></a>"'
 ]
 
 var randomPosition = Math.floor(Math.random() * phrases.length);
