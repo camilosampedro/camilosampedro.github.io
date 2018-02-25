@@ -17,7 +17,8 @@ var phrases = [
     'echo "This page is not responsive at all...^1000"',
     'echo "I\'m working on that...^1000"',
     'echo "Without breaking it.^500.^700.^1200 <i class="fas fa-bug"></i>^1300 <i class="fas fa-exclamation"></i>"',
-  ]
+  ],
+  'echo "I hope to learn a little Japanese before One Piece ends"',
 ]
 
 var randomPosition = Math.floor(Math.random() * phrases.length);
