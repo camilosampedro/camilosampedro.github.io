@@ -28,7 +28,7 @@ body {
     background-size: auto 100%;
   background-position-x: left;
     min-height: 100vh;
-  animation: milkyway 150s linear infinite;
+  animation: milkyway 100s linear infinite;
   font-family: sans-serif;
     max-width: 100vw;
     overflow-x: hidden;
@@ -38,29 +38,31 @@ body {
 
 @keyframes milkyway {
   0%{background-position-x: 0;}
-  50%{background-position-x: 150%;}
+  50%{background-position-x: 100%;}
   100%{background-position-x: 0%;}
 }
-#first .languages p:nth-of-type(1){animation-duration: 500ms;}
-#first .languages p:nth-of-type(2){animation-duration: 1000ms;}
-#first .languages p:nth-of-type(3){animation-duration: 1500ms;}
-#first .languages p:nth-of-type(4){animation-duration: 2000ms;}
-#first .languages p:nth-of-type(5){animation-duration: 2500ms;}
-#first .languages p:nth-of-type(6){animation-duration: 3000ms;}
+.languages p:nth-of-type(1){animation-duration: 500ms;}
+.languages p:nth-of-type(2){animation-duration: 1000ms;}
+.languages p:nth-of-type(3){animation-duration: 1500ms;}
+.languages p:nth-of-type(4){animation-duration: 2000ms;}
+.languages p:nth-of-type(5){animation-duration: 2500ms;}
+.languages p:nth-of-type(6){animation-duration: 3000ms;}
 
-#first .languages p svg, #first .languages p img{
+.languages p svg, #first .languages p img{
   height: 39px;
   display: inline-block;
   width: auto;
 }
-#first .languages p svg *{fill: #fff !important;}
+.languages p svg *{fill: #fff !important;}
 
 .vampire{position: fixed;right: 10px;top: 10px;height: 76px;}
 .vampire img{height: 100%;width: auto;}
-#first .languages{position: fixed;left: 0;line-height: 56px;top: 18vh;text-align: left;width: ;}
-#first .languages p{text-align: left;padding: 9px;font-size: 4em;animation: entradaIzquierda 3s ease 1;font-family: 'arial';font-family: 'Righteous', cursive;margin: 0 0 0 10px;display: inline-block;width: 70%;}
+.languages{position: fixed;left: 53px;line-height: 56px;top: 5%;text-align: left;height: 90%;padding: 15vh 0 0 0;border-left: 1px solid #FF8900;overflow: hidden;}
+.languages p:hover:after{width: 100%;}
+.languages p::after{content: '';background-color: #fff;height: 1px;width: 1px;position: absolute;left: 12px;bottom: 6px;transition: all 300ms ease;}
+.languages p{text-align: left;padding: 9px;font-size: 4em;animation: entradaIzquierda 3s ease 1;font-family: 'arial';font-family: 'Righteous', cursive;margin: 0 0 0 10px;width: 510px;position: relative;cursor: pointer;}
 @keyframes entradaIzquierda {
-  0%{margin: 0 0 0 -190px;}
+  0%{margin: 0 0 0 -290px;}
   80%{margin: 0 0 0 15px;}
   100%{margin: 0 0 0 10px;}
 }
@@ -78,13 +80,13 @@ a {
 
 .centered {
   text-align: center;
-  min-width: 400px;
+  min-width: 540px;
   position: absolute;
   right: 0;
   top: 0;
   height: 100%;
   background-color: rgba(0,0,0,0.9);
-  width: 40%;
+  width: 34%; 
   animation: aparecerDerecha 2s ease 1;
   background-image: url(../img/sampedroBlack.jpg);
   background-size: cover;
@@ -202,7 +204,6 @@ a {
 }
 .container.centered .row.social{
   
-  width: 100%;
   position: fixed;
   min-width: 400px;
   width: 40%;
@@ -481,4 +482,12 @@ textarea {
   h2, h3 {
     page-break-after: avoid;
   }
+}
+
+@media screen and (max-width: 1100px) {
+  body{min-height: 200vh;animation: milkyway 150s linear infinite;}
+  .container.centered{left: 29px;right: unset;animation: entradaIzquierda 3s ease 1;margin: 0 0 0 10px;width: 86%;min-width: unset;}
+  .languages{top: 100vh;position: absolute;}
+  .container.centered .row.social{left: 0;width: 100%;}
+  .languages p{font-size: 2.8em;line-height: 34px;width: 100%;}
 }
