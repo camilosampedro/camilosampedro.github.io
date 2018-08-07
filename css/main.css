@@ -88,7 +88,7 @@ a {
   background-color: rgba(0,0,0,0.9);
   width: 34%;
   animation: aparecerDerecha 2s ease 1;
-  background-image: url(../img/sampedro.jpg);
+  background-image: url(../img/sampedroMedium.jpg);
   background-size: cover;
   box-shadow: -12px 0px 29px #000;
 }
@@ -490,4 +490,8 @@ textarea {
   .languages{top: 100vh;position: absolute;}
   .container.centered .row.social{left: 0;width: 100%;}
   .languages p{font-size: 2.8em;line-height: 34px;width: 100%;}
+}
+
+.dark-background {
+  background-color: rgba(0, 0, 0, 0.5);
 }
