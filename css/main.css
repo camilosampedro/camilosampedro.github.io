@@ -15,7 +15,7 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
- 
+
 *{
   margin: 0 auto;
   padding: 0;
@@ -86,9 +86,9 @@ a {
   top: 0;
   height: 100%;
   background-color: rgba(0,0,0,0.9);
-  width: 34%; 
+  width: 34%;
   animation: aparecerDerecha 2s ease 1;
-  background-image: url(../img/sampedroBlack.jpg);
+  background-image: url(../img/sampedro.jpg);
   background-size: cover;
   box-shadow: -12px 0px 29px #000;
 }
@@ -203,14 +203,14 @@ a {
   border-width: 0.2em;
 }
 .container.centered .row.social{
-  
+
   position: fixed;
   min-width: 400px;
   width: 40%;
   bottom: 24px;
 }
 .container.centered .row.social i:hover:before{
-  
+
   font-size: 1.6em;
   text-shadow: 0px 0px 10px #5f728fcc;
 }
@@ -273,7 +273,7 @@ a {
   background: #b3d4fc;
   text-shadow: none;
 }
- 
+
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
